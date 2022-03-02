@@ -1,0 +1,8 @@
+site_name: "cool-birds-ring"
+site_description: "Manages uploads of bird song recordings"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
