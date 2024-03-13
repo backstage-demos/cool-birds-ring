@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cool-birds-ring
+spec:
+  type: service
+  lifecycle: experimental
+  owner: test-team
+  system: example
