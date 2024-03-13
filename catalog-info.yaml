@@ -1,12 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: "cool-birds-ring"
-  description: "Manages uploads of bird song recordings"
-  annotations:
-    github.com/project-slug: backstage-demos/cool-birds-ring
-    backstage.io/techdocs-ref: dir:.
-spec:
-  type: website
-  lifecycle: experimental
-  owner: "team-a"
+  kind: Component
+  metadata:
+    name: cool-birds-ring
+  spec:
+    type: service
+    lifecycle: experimental
+    owner: backstage-demos/test-team
+    system: example
